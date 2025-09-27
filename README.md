@@ -6,17 +6,8 @@ _Dựa trên tài liệu yêu cầu - Chức năng quản lý sản phẩm của
 
 1. [Chức năng quản lý sản phẩm](#1-chức-năng-quản-lý-sản-phẩm)
    - 1.1 [Danh sách sản phẩm](#11-danh-sách-sản-phẩm)
-     - 1.1.1 [Định dạng 1.png](#111-định-dạng-1png)
-     - 1.1.2 [Định dạng 2.png](#112-định-dạng-2png)
-     - 1.1.3 [Định dạng 3.png](#113-định-dạng-3png)
    - 1.2 [Thêm sản phẩm mới](#12-thêm-sản-phẩm-mới)
-     - 1.2.1 [Định dạng 1.png](#121-định-dạng-1png)
-     - 1.2.2 [Định dạng 2.png](#122-định-dạng-2png)
-     - 1.2.3 [Định dạng 3.png](#123-định-dạng-3png)
    - 1.3 [Chỉnh sửa sản phẩm](#13-chỉnh-sửa-sản-phẩm)
-     - 1.3.1 [Định dạng 1.png](#131-định-dạng-1png)
-     - 1.3.2 [Định dạng 2.png](#132-định-dạng-2png)
-     - 1.3.3 [Định dạng 3.png](#133-định-dạng-3png)
 
 ---
 
@@ -24,14 +15,14 @@ _Dựa trên tài liệu yêu cầu - Chức năng quản lý sản phẩm của
 
 ### 1.1 DANH SÁCH SẢN PHẨM
 
-#### 1.1.1 Định dạng 1.png:
+#### 1.1.1 Thông tin màn hình:
 
 | Screen        | Danh sách sản phẩm                                                                                               |
 | ------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Description   | Hiển thị danh sách tất cả sản phẩm trong hệ thống, cho phép quản trị viên xem, tìm kiếm, lọc và quản lý sản phẩm |
 | Screen Access | Admin chọn **Sản phẩm** trên sidebar\*\*                                                                         |
 
-#### 1.1.2 Định dạng 2.png:
+#### 1.1.2 Chi tiết thành phần màn hình:
 
 | Item                   | Type         | Data                                                                                           | Description                                                          |
 | ---------------------- | ------------ | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -53,7 +44,7 @@ _Dựa trên tài liệu yêu cầu - Chức năng quản lý sản phẩm của
 | **Nút thêm mới**       | Button       | Thêm sản phẩm mới                                                                              | Nút để tạo sản phẩm mới                                              |
 | **Phân trang**         | Pagination   | Trang 1/10                                                                                     | Điều hướng giữa các trang danh sách sản phẩm                         |
 
-#### 1.1.3 Định dạng 3.png:
+#### 1.1.3 Hành động và xử lý:
 
 | Action Name                | Description                                                                                                                                                                                                                                                                                                                                                                                                             | Success                                                                                                                     | Failure                                                                                                               |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -63,14 +54,14 @@ _Dựa trên tài liệu yêu cầu - Chức năng quản lý sản phẩm của
 
 ### 1.2 THÊM SẢN PHẨM MỚI
 
-#### 1.2.1 Định dạng 1.png:
+#### 1.2.1 Thông tin màn hình:
 
 | Screen        | Thêm sản phẩm mới                                                                        |
 | ------------- | ---------------------------------------------------------------------------------------- |
 | Description   | Form cho phép quản trị viên thêm sản phẩm mới vào hệ thống với đầy đủ thông tin chi tiết |
 | Screen Access | Admin click vào nút **Thêm sản phẩm mới** từ danh sách sản phẩm                          |
 
-#### 1.2.2 Định dạng 2.png:
+#### 1.2.2 Chi tiết thành phần màn hình:
 
 | Item                   | Type         | Data                                                                                              | Description                                                |
 | ---------------------- | ------------ | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -96,7 +87,7 @@ _Dựa trên tài liệu yêu cầu - Chức năng quản lý sản phẩm của
 | **Lưu nháp**           | Button       |                                                                                                   | Lưu sản phẩm dưới dạng nháp                                |
 | **Hủy bỏ**             | Button       |                                                                                                   | Hủy bỏ việc thêm sản phẩm và quay lại danh sách            |
 
-#### 1.2.3 Định dạng 3.png:
+#### 1.2.3 Hành động và xử lý:
 
 | Action Name                  | Description                                                                                                                                                                                                                                                                                                                        | Success                                                                                                  | Failure                                                                                                            |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -106,14 +97,14 @@ _Dựa trên tài liệu yêu cầu - Chức năng quản lý sản phẩm của
 
 ### 1.3 CHỈNH SỬA SẢN PHẨM
 
-#### 1.3.1 Định dạng 1.png:
+#### 1.3.1 Thông tin màn hình:
 
 | Screen        | Chỉnh sửa sản phẩm                                                                   |
 | ------------- | ------------------------------------------------------------------------------------ |
 | Description   | Form cho phép Admin chỉnh sửa thông tin sản phẩm đã có trong hệ thống                |
 | Screen Access | Admin click vào nút **Chỉnh sửa** từ danh sách sản phẩm hoặc trang chi tiết sản phẩm |
 
-#### 1.3.2 Định dạng 2.png:
+#### 1.3.2 Chi tiết thành phần màn hình:
 
 | Item                   | Type     | Data                                                                            | Description                                              |
 | ---------------------- | -------- | ------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -125,10 +116,11 @@ _Dựa trên tài liệu yêu cầu - Chức năng quản lý sản phẩm của
 | **Nút Hủy**            | Button   |                                                                                 | Hủy chỉnh sửa và quay lại danh sách                      |
 | **Nút Lưu thay đổi**   | Button   |                                                                                 | Lưu các thay đổi và cập nhật sản phẩm                    |
 
-#### 1.3.3 Định dạng 3.png:
+#### 1.3.3 Hành động và xử lý:
 
 | Action Name                       | Description                                                                                                                                                                                                                                                                                                                      | Success                                                                                                                         | Failure                                                                                                           |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | **Chỉnh sửa thông tin sản phẩm**  | Cho phép quản trị viên chỉnh sửa tất cả thông tin của sản phẩm đã có trong hệ thống. Bao gồm thông tin cơ bản, thông tin bán hàng, hình ảnh và trạng thái. Hệ thống tự động tính toán lại lợi nhuận khi thay đổi giá. Ghi lại lịch sử thay đổi với thông tin người thực hiện và thời gian. Kiểm tra tính hợp lệ của dữ liệu mới. | Thông tin sản phẩm được cập nhật thành công. Lịch sử thay đổi được ghi lại. Hiển thị thông báo xác nhận.                        | Dữ liệu mới không hợp lệ. Không có quyền chỉnh sửa sản phẩm. Lỗi khi cập nhật thông tin vào hệ thống.             |
 | **Xem lịch sử thay đổi sản phẩm** | Hiển thị lịch sử chi tiết các thay đổi đã thực hiện trên sản phẩm. Bao gồm thông tin về thời gian, người thực hiện, trường được thay đổi, giá trị cũ và giá trị mới. Hiển thị theo thứ tự thời gian từ mới nhất đến cũ nhất. Cho phép xem chi tiết từng thay đổi.                                                                | Hiển thị đầy đủ lịch sử thay đổi sản phẩm. Thông tin chi tiết về từng thay đổi được hiển thị chính xác.                         | Không thể tải lịch sử thay đổi do lỗi hệ thống. Lịch sử hiển thị không đầy đủ hoặc không chính xác.               |
 | **Cập nhật trạng thái sản phẩm**  | Cho phép quản trị viên thay đổi trạng thái sản phẩm (Đang bán, Hết hàng, Ngừng bán, Chờ duyệt). Yêu cầu nhập lý do thay đổi trạng thái. Tự động ghi lại lịch sử thay đổi. Có thể gửi thông báo cho khách hàng về việc thay đổi trạng thái sản phẩm.                                                                              | Trạng thái sản phẩm được cập nhật thành công. Lịch sử thay đổi được ghi lại. Thông báo được gửi cho khách hàng (nếu được chọn). | Không thể cập nhật trạng thái do lỗi hệ thống. Trạng thái mới không hợp lệ. Lỗi khi gửi thông báo cho khách hàng. |
+
